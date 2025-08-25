@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "j3t379JVori2DLkxNO889XmoVEZ1BVfh6UKHlNmnB1E=",
+  "Source": "GXReservationAPI",
+  "BasePath": "_content/GXReservationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

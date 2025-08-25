@@ -1,0 +1,6 @@
+@GXReservationAPI_HostAddress = http://localhost:5036
+
+GET {{GXReservationAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
