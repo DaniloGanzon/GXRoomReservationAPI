@@ -3,12 +3,11 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
 # copy csproj and restore
-COPY GXRoomReservationAPI/*.csproj ./GXRoomReservationAPI/
-RUN dotnet restore GXRoomReservationAPI/GXRoomReservationAPI.csproj
+COPY *.csproj ./
+RUN dotnet restore
 
 # copy everything else and build
-COPY GXRoomReservationAPI/. ./GXRoomReservationAPI/
-WORKDIR /src/GXRoomReservationAPI
+COPY . .
 RUN dotnet publish -c Release -o /app
 
 # Runtime stage
